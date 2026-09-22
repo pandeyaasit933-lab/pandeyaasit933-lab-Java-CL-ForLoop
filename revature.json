@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ForLoopTest.java",
+      "testCases": [
+        {
+          "methodName": "returnStringTest1",
+          "label": "Verify returnNumbers prints 1 through 5",
+          "description": "Checks that returnNumbers(1, 6) returns the space-separated string \"1 2 3 4 5\" after trimming."
+        },
+        {
+          "methodName": "returnStringTest2",
+          "label": "Verify returnNumbers prints 1 through 3",
+          "description": "Checks that returnNumbers(1, 4) returns the space-separated string \"1 2 3\" after trimming."
+        },
+        {
+          "methodName": "returnStringTest3",
+          "label": "Verify returnNumbers prints 3 through 6",
+          "description": "Checks that returnNumbers(3, 7) returns the space-separated string \"3 4 5 6\" after trimming."
+        }
+      ]
+    }
+  ]
+}
